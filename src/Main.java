@@ -16,11 +16,6 @@ public class Main {
         for (Vehicle v : vehicles) {
             System.out.println(v);
         }
-        try {
-            Vehicle first = vehicles.get(0);
-            System.out.println("First vehicle: " + first);
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println("Vehicle list is empty.");
-        }
+
     }
 }
